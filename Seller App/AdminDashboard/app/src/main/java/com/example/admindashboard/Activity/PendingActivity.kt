@@ -1,0 +1,12 @@
+package com.example.admindashboard.Activity
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import com.example.admindashboard.R
+
+class PendingActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_pending)
+    }
+}
